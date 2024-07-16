@@ -3,13 +3,13 @@ import json
 # Objek JSON
 element = {
     'human': {
-        'nama': 'your namd',
+        'nama': 'your name',
         'usia':17
     }
 }
 
 # Hapus properti 'usia'
-if 'massa' in element['H']:
+if 'massa' in element['human']:
     del element['human']['usia']
 
 # Mengubah objek menjadi string JSON
